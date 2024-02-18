@@ -29,80 +29,52 @@ body{
   
   .header__links {
     display: flex;
-    justify-content: space-between;
-    margin-top: 40px;
-  }
-  
-  .header__links li a {
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    padding: 9px 17px;
-  }
-  
-  .header__links li a:hover {
-    color: #EA6D27;
-    cursor: pointer;
-  }
-  .btn-nav{
-    width: 150px;
-    height: 36px;
-    border-radius:  58px 30px;
-    font-family:Times, serif;
-    font-size: 15px;
-    background-color: #EA6D27;
-    margin-top: 30px;
-    cursor: pointer;
-    letter-spacing: 1px;
-  }
-  .btn-nav:hover{
-    background-color: #000;
-    color: #EA6D27;
-  }
-  /* Header End */
-   /* Home Section Start */
-
-.container {
-  display: flex;
-  justify-content: space-around;
- margin: 0px 60px
-} 
-.container__text{
-  text-align: left;
-  padding: 300px 10px;
-  font-family: Georgia, 'Times New Roman', Times, serif
+    justify-self: center;
+    grid-area: m;
 }
-.container__text h1{
-  font-size: 4rem;
-  color: #0c0b0b;
-  text-shadow: 3px 0px  #EA6D27;
-}
-.container__text p {
-  color: white;
-  font-size: 1.5rem;
-  margin-top: 20px;
-  font-family: 'Times New Roman', Times, serif
+.dishe{
+    width: 12rem;
+    height: 30rem;
 }
 
-#btn {
-  font-family:Times, serif;
-  font-size: 15px;
-  font-weight: bold;
-  background: black;
-  color: #fff;
-  letter-spacing: 1px;
-  border: 1px solid;
-  margin-top: 100px;
-  cursor: pointer;
-  width: 150px;
-  height: 36px;
-  border-radius: 58px 30px ;
+
+.dish__img
+{
+width: 130px;
+height: 130px;
+position: relative;
+left: 1rem;
+bottom:-9rem;
 }
-#btn:hover{
-  background-color: #ffffff;
-  color:#EA6D27;
+.dish__price
+{
+    width:65px;
+    height:65px;  
+    position: relative;
+    left:6.5rem;
+    bottom:-2rem;
 }
 
-.container__banner {
-  margin-top: 200px;
+.dish-describtion
+{
+    padding:10px;
+    border:1px ;
+    border-style: solid;
+    border-color:white;
+    border-radius: 45px 9px;
+    width: 10rem;
+    height:12rem;
+    text-align:center;
+    font-size: smaller;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap:10px;
+}
+
+.dish-describtion:hover
+{
+    background-color: #ffffff;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 /* Home Section End */
