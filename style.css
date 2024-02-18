@@ -60,7 +60,7 @@
 .container {
   display: flex;
   justify-content: space-around;
- margin: 0px 60px
+ margin: 0px 60px;
 } 
 .container__text{
   text-align: left;
@@ -102,82 +102,75 @@
   margin-top: 200px;
 }
 /* Home Section End */
-.main
+main
 {
-  margin: 100rem;
+    background-image: url(./image/main-packgroun.png);
+    background-position: center;
+    background-size: contain;
+    margin-top: 3rem;
+    margin-bottom:3rem;
 }
-/*deshe section start */
 .section__title
 {
-  margin-top:2rem;
-  text-align: center;   
+    padding: 3rem;
+    text-align: center;
+    font-size: 2rem;
 }
 .sect__supt
 {
-   text-align: center;
-   margin-top:2rem ;
+    text-align: center;
+    font-size: 1rem;  
 }
-section header{
-display: flex;
-justify-content: center;
-}
-#Dishes
+.dishes
 {
-  background-image: url(./image/main-packgroun.png);
-  background-size: contain;
-}
-.menue
-{
-  display: flex;
-  justify-content: center;
-}
+    display: flex;
+    justify-content:center;
+    gap: 3rem;
 
+}
 .dishe{
-  width: 12rem;
-  height: 30rem;
-}
-
-
-.dish__img
-{
-width: 130px;
-height: 130px;
-position: relative;
-left: 1rem;
-bottom:-9rem;
-}
-.dish__price
-{
-  width:65px;
-  height:65px;  
+    width: 12rem;
+    padding-bottom: 3rem;
+  }
+ .dish__img
+  {
+  width: 140px;
+  height: 140px;
   position: relative;
-  left:6.5rem;
-  bottom:-2rem;
-}
-
-.dish-describtion
-{
-  padding:10px;
-  border:1px ;
-  border-style: solid;
-  border-color:white;
-  border-radius: 45px 9px;
-  width: 10rem;
-  height:12rem;
-  text-align:center;
-  font-size: smaller;
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  gap:10px;
-}
-
-.dish-describtion:hover
-{
-  background-color: #ffffff;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-
+  left: 2rem;
+  bottom:-9rem;
+  }
+  .dish__price
+  {
+    width:70px;
+    height:70px;  
+    position: relative;
+    left:8rem;
+    bottom:-2rem;
+  }
+  
+  .dish-describtion
+  {
+    padding: 1rem;
+    border:2px ;
+    border-style: solid;
+    border-color:white;
+    border-radius: 45px 9px;
+    width: 12rem;
+    height:14rem;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap:10px;
+  }
+  
+  .dish-describtion:hover
+  {
+    background-color: #ffffff;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  
 body{
   background-color:#CFD1D3;
 }
